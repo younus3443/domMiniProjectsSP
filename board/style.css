@@ -1,0 +1,18 @@
+.cell{
+    height:100px;
+    width:100px;
+    border: solid black;
+}
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+}
+.board{
+    display: grid;
+    grid-template-columns: repeat(8,100px)
+}
+.diagonal{
+    background-color: yellow !important
+}

@@ -1,0 +1,20 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.reset > button,
+.btn > button{
+    background-color:#0d6efd; ;
+    height:50px;
+    width:50px;
+    border-radius: 10px;
+    color: white;
+}
+.value{
+    display: flex;
+    gap:20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

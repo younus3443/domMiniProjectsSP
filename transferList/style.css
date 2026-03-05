@@ -1,0 +1,39 @@
+h2{
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+.outer-table {
+    margin-left: 100px;
+    border-collapse: collapse;
+    width:80%;
+    display: flex;
+    justify-content: center;
+
+}
+.box {
+    border: 2px solid #000;   
+    padding: 50px;
+    vertical-align: top;
+}
+
+.list-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 150px;
+}
+
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width:50px;
+    
+}
+
+button {
+    padding: 5px 10px;
+}

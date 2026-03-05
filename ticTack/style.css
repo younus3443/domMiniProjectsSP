@@ -1,0 +1,28 @@
+.cell{
+    border:1px solid black;
+    width:100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+.board{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height:50px;
+    width:100px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    margin-left:45%;
+    margin-top: 5%;
+
+}
+h1{
+    margin-left: 42%;
+}

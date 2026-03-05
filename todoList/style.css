@@ -1,0 +1,16 @@
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#input{
+    margin: 20px auto;
+    height: 30px;
+}
+.delete,
+.edit{
+    margin: 10px;  
+}
+li{
+    list-style: none;
+}
