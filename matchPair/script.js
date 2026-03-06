@@ -47,8 +47,6 @@ cells.forEach(cell=>{
     })
 })
 
-
-
 function checkMatch(){
     if(firstCard.dataset.value===secondCard.dataset.value){
         matches++
