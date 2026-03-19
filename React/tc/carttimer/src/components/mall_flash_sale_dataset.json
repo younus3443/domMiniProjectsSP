@@ -1,0 +1,3707 @@
+{
+  "schemaVersion": "1.0",
+  "mall": {
+    "id": "mall_001",
+    "name": "Orchid Galleria",
+    "city": "Bengaluru",
+    "timezone": "Asia/Kolkata"
+  },
+  "rules": {
+    "saleMode": "page-load-ttl",
+    "timerStartsOn": "clientMount",
+    "notes": [
+      "Each variant has its own ttlSeconds; when ttl elapses from page load, that variant becomes SOLD_OUT.",
+      "Refreshing the page restarts timers (this is intentional for the exercise)."
+    ]
+  },
+  "inventory": [
+    {
+      "id": "itm_001",
+      "name": "Jade Face Wash",
+      "category": {
+        "primary": "Kitchen",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Kitchen"
+        ]
+      },
+      "brand": {
+        "name": "Aurum",
+        "slug": "aurum"
+      },
+      "store": {
+        "name": "Sunlit Bazaar",
+        "floor": "G",
+        "unit": "G-15"
+      },
+      "tags": [
+        "premium",
+        "handmade"
+      ],
+      "specs": {
+        "weightGrams": 1133,
+        "warrantyMonths": 0,
+        "origin": "Thailand",
+        "rating": 4.0,
+        "ratingCount": 516
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 30
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 49
+            },
+            {
+              "zone": "B",
+              "fee": 99
+            }
+          ],
+          "etaHours": 24
+        }
+      },
+      "compliance": {
+        "returnPolicy": "10-day return",
+        "gst": {
+          "hsn": "4150",
+          "ratePercent": 5
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_001_1/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_001_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_001-V01",
+          "attributes": {
+            "colour": "White",
+            "size": "One Size",
+            "material": "Microfibre"
+          },
+          "pricing": {
+            "mrp": 525.0,
+            "discountPercent": 25,
+            "salePrice": 393.75,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 1
+          },
+          "ttlSeconds": 15,
+          "availability": {
+            "initialUnits": 8,
+            "lowStockThreshold": 5,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_001-V02",
+          "attributes": {
+            "colour": "Amber",
+            "size": "XL",
+            "material": "Steel"
+          },
+          "pricing": {
+            "mrp": 2849.1,
+            "discountPercent": 35,
+            "salePrice": 1851.91,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 4
+          },
+          "ttlSeconds": 50,
+          "availability": {
+            "initialUnits": 31,
+            "lowStockThreshold": 8,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_001-V03",
+          "attributes": {
+            "colour": "Mint",
+            "size": "One Size",
+            "material": "Aluminium"
+          },
+          "pricing": {
+            "mrp": 1766.23,
+            "discountPercent": 10,
+            "salePrice": 1589.61,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 2
+          },
+          "ttlSeconds": 90,
+          "availability": {
+            "initialUnits": 9,
+            "lowStockThreshold": 3,
+            "allowBackorder": true
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "offer",
+            "deal",
+            "mall",
+            "today"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_002",
+      "name": "Jade Cable",
+      "category": {
+        "primary": "Kitchen",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Kitchen"
+        ]
+      },
+      "brand": {
+        "name": "NovaNook",
+        "slug": "novanook"
+      },
+      "store": {
+        "name": "Neon Gallery",
+        "floor": "G",
+        "unit": "G-38"
+      },
+      "tags": [
+        "budget",
+        "eco",
+        "limited"
+      ],
+      "specs": {
+        "weightGrams": 914,
+        "warrantyMonths": 18,
+        "origin": "Thailand",
+        "rating": 3.7,
+        "ratingCount": 2049
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 30
+        },
+        "delivery": {
+          "enabled": false,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 79
+            },
+            {
+              "zone": "B",
+              "fee": 49
+            }
+          ],
+          "etaHours": 6
+        }
+      },
+      "compliance": {
+        "returnPolicy": "7-day replacement",
+        "gst": {
+          "hsn": "5040",
+          "ratePercent": 18
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_002_1/400/300",
+          "https://picsum.photos/seed/itm_002_2/400/300",
+          "https://picsum.photos/seed/itm_002_3/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_002_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_002-V01",
+          "attributes": {
+            "colour": "Rose",
+            "size": "S",
+            "material": "Leatherette"
+          },
+          "pricing": {
+            "mrp": 3537.92,
+            "discountPercent": 5,
+            "salePrice": 3361.02,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 5
+          },
+          "ttlSeconds": 40,
+          "availability": {
+            "initialUnits": 37,
+            "lowStockThreshold": 5,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_002-V02",
+          "attributes": {
+            "colour": "Grey",
+            "size": "L",
+            "material": "Leatherette"
+          },
+          "pricing": {
+            "mrp": 4947.66,
+            "discountPercent": 35,
+            "salePrice": 3215.98,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 2
+          },
+          "ttlSeconds": 90,
+          "availability": {
+            "initialUnits": 6,
+            "lowStockThreshold": 5,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "today",
+            "hot",
+            "limited",
+            "deal"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_003",
+      "name": "Breeze Notebook",
+      "category": {
+        "primary": "Stationery",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Stationery"
+        ]
+      },
+      "brand": {
+        "name": "SableKind",
+        "slug": "sablekind"
+      },
+      "store": {
+        "name": "Sky Atrium",
+        "floor": "B1",
+        "unit": "B1-24"
+      },
+      "tags": [
+        "handmade",
+        "limited",
+        "bestseller",
+        "eco"
+      ],
+      "specs": {
+        "weightGrams": 1443,
+        "warrantyMonths": 0,
+        "origin": "China",
+        "rating": 3.9,
+        "ratingCount": 1863
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 10
+        },
+        "delivery": {
+          "enabled": false,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 49
+            },
+            {
+              "zone": "B",
+              "fee": 99
+            }
+          ],
+          "etaHours": 4
+        }
+      },
+      "compliance": {
+        "returnPolicy": "No returns on hygiene items",
+        "gst": {
+          "hsn": "5889",
+          "ratePercent": 12
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_003_1/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_003_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_003-V01",
+          "attributes": {
+            "colour": "Mint",
+            "size": "One Size",
+            "material": "Aluminium"
+          },
+          "pricing": {
+            "mrp": 3021.4,
+            "discountPercent": 25,
+            "salePrice": 2266.05,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 4
+          },
+          "ttlSeconds": 210,
+          "availability": {
+            "initialUnits": 36,
+            "lowStockThreshold": 8,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "new",
+            "save",
+            "sale",
+            "offer"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_004",
+      "name": "Nimbus Dumbbell",
+      "category": {
+        "primary": "Electronics",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Electronics"
+        ]
+      },
+      "brand": {
+        "name": "QuartzNine",
+        "slug": "quartznine"
+      },
+      "store": {
+        "name": "Neon Gallery",
+        "floor": "L1",
+        "unit": "L1-05"
+      },
+      "tags": [
+        "bestseller",
+        "compact",
+        "budget"
+      ],
+      "specs": {
+        "weightGrams": 917,
+        "warrantyMonths": 18,
+        "origin": "Thailand",
+        "rating": 4.4,
+        "ratingCount": 1281
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 30
+        },
+        "delivery": {
+          "enabled": false,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 49
+            },
+            {
+              "zone": "B",
+              "fee": 79
+            }
+          ],
+          "etaHours": 24
+        }
+      },
+      "compliance": {
+        "returnPolicy": "30-day return",
+        "gst": {
+          "hsn": "2982",
+          "ratePercent": 12
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_004_1/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_004_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_004-V01",
+          "attributes": {
+            "colour": "Black",
+            "size": "S",
+            "material": "Bamboo"
+          },
+          "pricing": {
+            "mrp": 518.7,
+            "discountPercent": 30,
+            "salePrice": 363.09,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 1
+          },
+          "ttlSeconds": 35,
+          "availability": {
+            "initialUnits": 11,
+            "lowStockThreshold": 10,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "limited",
+            "sale",
+            "mall",
+            "offer"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_005",
+      "name": "Velvet Mug",
+      "category": {
+        "primary": "Fitness",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Fitness"
+        ]
+      },
+      "brand": {
+        "name": "Aurum",
+        "slug": "aurum"
+      },
+      "store": {
+        "name": "Sunlit Bazaar",
+        "floor": "B1",
+        "unit": "B1-16"
+      },
+      "tags": [
+        "budget",
+        "giftable",
+        "limited"
+      ],
+      "specs": {
+        "weightGrams": 447,
+        "warrantyMonths": 24,
+        "origin": "Korea",
+        "rating": 3.8,
+        "ratingCount": 1688
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 30
+        },
+        "delivery": {
+          "enabled": false,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 0
+            },
+            {
+              "zone": "B",
+              "fee": 99
+            }
+          ],
+          "etaHours": 2
+        }
+      },
+      "compliance": {
+        "returnPolicy": "No returns on hygiene items",
+        "gst": {
+          "hsn": "7596",
+          "ratePercent": 18
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_005_1/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_005_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_005-V01",
+          "attributes": {
+            "colour": "Rose",
+            "size": "XS",
+            "material": "Microfibre"
+          },
+          "pricing": {
+            "mrp": 1265.22,
+            "discountPercent": 30,
+            "salePrice": 885.65,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 2
+          },
+          "ttlSeconds": 35,
+          "availability": {
+            "initialUnits": 49,
+            "lowStockThreshold": 10,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "mall",
+            "hot",
+            "combo",
+            "deal"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_006",
+      "name": "Jade Cable",
+      "category": {
+        "primary": "Snacks",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Snacks"
+        ]
+      },
+      "brand": {
+        "name": "GlowMint",
+        "slug": "glowmint"
+      },
+      "store": {
+        "name": "Sunlit Bazaar",
+        "floor": "B1",
+        "unit": "B1-34"
+      },
+      "tags": [
+        "eco",
+        "budget",
+        "bestseller"
+      ],
+      "specs": {
+        "weightGrams": 2043,
+        "warrantyMonths": 3,
+        "origin": "Vietnam",
+        "rating": 3.7,
+        "ratingCount": 244
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 45
+        },
+        "delivery": {
+          "enabled": false,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 0
+            },
+            {
+              "zone": "B",
+              "fee": 99
+            }
+          ],
+          "etaHours": 6
+        }
+      },
+      "compliance": {
+        "returnPolicy": "No returns on hygiene items",
+        "gst": {
+          "hsn": "1821",
+          "ratePercent": 28
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_006_1/400/300",
+          "https://picsum.photos/seed/itm_006_2/400/300",
+          "https://picsum.photos/seed/itm_006_3/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_006_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_006-V01",
+          "attributes": {
+            "colour": "Amber",
+            "size": "XS",
+            "material": "Steel"
+          },
+          "pricing": {
+            "mrp": 3294.51,
+            "discountPercent": 35,
+            "salePrice": 2141.43,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 1
+          },
+          "ttlSeconds": 25,
+          "availability": {
+            "initialUnits": 18,
+            "lowStockThreshold": 5,
+            "allowBackorder": true
+          }
+        },
+        {
+          "sku": "itm_006-V02",
+          "attributes": {
+            "colour": "Grey",
+            "size": "L",
+            "material": "Silicone"
+          },
+          "pricing": {
+            "mrp": 4335.79,
+            "discountPercent": 0,
+            "salePrice": 4335.79,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 2
+          },
+          "ttlSeconds": 150,
+          "availability": {
+            "initialUnits": 3,
+            "lowStockThreshold": 10,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "new",
+            "sale",
+            "deal",
+            "today"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_007",
+      "name": "Cobalt Notebook",
+      "category": {
+        "primary": "Stationery",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Stationery"
+        ]
+      },
+      "brand": {
+        "name": "CedarVale",
+        "slug": "cedarvale"
+      },
+      "store": {
+        "name": "Sunlit Bazaar",
+        "floor": "L2",
+        "unit": "L2-17"
+      },
+      "tags": [
+        "eco",
+        "budget"
+      ],
+      "specs": {
+        "weightGrams": 586,
+        "warrantyMonths": 24,
+        "origin": "Thailand",
+        "rating": 3.7,
+        "ratingCount": 1300
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 10
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 79
+            },
+            {
+              "zone": "B",
+              "fee": 99
+            }
+          ],
+          "etaHours": 24
+        }
+      },
+      "compliance": {
+        "returnPolicy": "No returns on hygiene items",
+        "gst": {
+          "hsn": "2200",
+          "ratePercent": 12
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_007_1/400/300",
+          "https://picsum.photos/seed/itm_007_2/400/300",
+          "https://picsum.photos/seed/itm_007_3/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_007_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_007-V01",
+          "attributes": {
+            "colour": "Navy",
+            "size": "XL",
+            "material": "Steel"
+          },
+          "pricing": {
+            "mrp": 3133.97,
+            "discountPercent": 25,
+            "salePrice": 2350.48,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 5
+          },
+          "ttlSeconds": 90,
+          "availability": {
+            "initialUnits": 19,
+            "lowStockThreshold": 5,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "new",
+            "limited",
+            "deal",
+            "combo"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_008",
+      "name": "Saffron Cable",
+      "category": {
+        "primary": "Electronics",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Electronics"
+        ]
+      },
+      "brand": {
+        "name": "KoruLabs",
+        "slug": "korulabs"
+      },
+      "store": {
+        "name": "Ivory Lane",
+        "floor": "L3",
+        "unit": "L3-16"
+      },
+      "tags": [
+        "flash",
+        "limited",
+        "wireless",
+        "bundleable"
+      ],
+      "specs": {
+        "weightGrams": 2284,
+        "warrantyMonths": 0,
+        "origin": "China",
+        "rating": 4.2,
+        "ratingCount": 611
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 30
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 0
+            },
+            {
+              "zone": "B",
+              "fee": 79
+            }
+          ],
+          "etaHours": 6
+        }
+      },
+      "compliance": {
+        "returnPolicy": "No returns on hygiene items",
+        "gst": {
+          "hsn": "6862",
+          "ratePercent": 12
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_008_1/400/300",
+          "https://picsum.photos/seed/itm_008_2/400/300",
+          "https://picsum.photos/seed/itm_008_3/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_008_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_008-V01",
+          "attributes": {
+            "colour": "Amber",
+            "size": "XS",
+            "material": "Microfibre"
+          },
+          "pricing": {
+            "mrp": 1565.96,
+            "discountPercent": 5,
+            "salePrice": 1487.66,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 2
+          },
+          "ttlSeconds": 60,
+          "availability": {
+            "initialUnits": 10,
+            "lowStockThreshold": 3,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_008-V02",
+          "attributes": {
+            "colour": "Sand",
+            "size": "M",
+            "material": "Silicone"
+          },
+          "pricing": {
+            "mrp": 3615.3,
+            "discountPercent": 12,
+            "salePrice": 3181.46,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 3
+          },
+          "ttlSeconds": 240,
+          "availability": {
+            "initialUnits": 19,
+            "lowStockThreshold": 3,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_008-V03",
+          "attributes": {
+            "colour": "Olive",
+            "size": "M",
+            "material": "Steel"
+          },
+          "pricing": {
+            "mrp": 116.37,
+            "discountPercent": 10,
+            "salePrice": 104.73,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 3
+          },
+          "ttlSeconds": 40,
+          "availability": {
+            "initialUnits": 50,
+            "lowStockThreshold": 10,
+            "allowBackorder": true
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "deal",
+            "limited",
+            "today",
+            "offer"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_009",
+      "name": "Saffron Earbuds",
+      "category": {
+        "primary": "Stationery",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Stationery"
+        ]
+      },
+      "brand": {
+        "name": "IonPeak",
+        "slug": "ionpeak"
+      },
+      "store": {
+        "name": "Pebble Plaza",
+        "floor": "B1",
+        "unit": "B1-08"
+      },
+      "tags": [
+        "premium",
+        "eco",
+        "giftable"
+      ],
+      "specs": {
+        "weightGrams": 963,
+        "warrantyMonths": 0,
+        "origin": "Thailand",
+        "rating": 3.5,
+        "ratingCount": 1349
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 20
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 49
+            },
+            {
+              "zone": "B",
+              "fee": 79
+            }
+          ],
+          "etaHours": 24
+        }
+      },
+      "compliance": {
+        "returnPolicy": "30-day return",
+        "gst": {
+          "hsn": "9785",
+          "ratePercent": 18
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_009_1/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_009_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_009-V01",
+          "attributes": {
+            "colour": "Rose",
+            "size": "L",
+            "material": "Silicone"
+          },
+          "pricing": {
+            "mrp": 1406.35,
+            "discountPercent": 5,
+            "salePrice": 1336.03,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 4
+          },
+          "ttlSeconds": 20,
+          "availability": {
+            "initialUnits": 33,
+            "lowStockThreshold": 5,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "offer",
+            "new",
+            "hot",
+            "sale"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_010",
+      "name": "Pixel Planner",
+      "category": {
+        "primary": "Kitchen",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Kitchen"
+        ]
+      },
+      "brand": {
+        "name": "WinkAura",
+        "slug": "winkaura"
+      },
+      "store": {
+        "name": "Neon Gallery",
+        "floor": "L2",
+        "unit": "L2-11"
+      },
+      "tags": [
+        "handmade",
+        "bundleable",
+        "compact",
+        "eco"
+      ],
+      "specs": {
+        "weightGrams": 1713,
+        "warrantyMonths": 18,
+        "origin": "India",
+        "rating": 3.7,
+        "ratingCount": 865
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 30
+        },
+        "delivery": {
+          "enabled": false,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 49
+            },
+            {
+              "zone": "B",
+              "fee": 79
+            }
+          ],
+          "etaHours": 12
+        }
+      },
+      "compliance": {
+        "returnPolicy": "30-day return",
+        "gst": {
+          "hsn": "4501",
+          "ratePercent": 28
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_010_1/400/300",
+          "https://picsum.photos/seed/itm_010_2/400/300",
+          "https://picsum.photos/seed/itm_010_3/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_010_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_010-V01",
+          "attributes": {
+            "colour": "Amber",
+            "size": "XS",
+            "material": "Aluminium"
+          },
+          "pricing": {
+            "mrp": 4506.57,
+            "discountPercent": 12,
+            "salePrice": 3965.78,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 3
+          },
+          "ttlSeconds": 20,
+          "availability": {
+            "initialUnits": 48,
+            "lowStockThreshold": 10,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_010-V02",
+          "attributes": {
+            "colour": "Amber",
+            "size": "XL",
+            "material": "Silicone"
+          },
+          "pricing": {
+            "mrp": 1883.69,
+            "discountPercent": 5,
+            "salePrice": 1789.51,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 3
+          },
+          "ttlSeconds": 90,
+          "availability": {
+            "initialUnits": 45,
+            "lowStockThreshold": 3,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_010-V03",
+          "attributes": {
+            "colour": "Amber",
+            "size": "M",
+            "material": "Aluminium"
+          },
+          "pricing": {
+            "mrp": 1697.3,
+            "discountPercent": 15,
+            "salePrice": 1442.7,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 5
+          },
+          "ttlSeconds": 35,
+          "availability": {
+            "initialUnits": 15,
+            "lowStockThreshold": 10,
+            "allowBackorder": true
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "deal",
+            "offer",
+            "limited",
+            "sale"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_011",
+      "name": "Orbit Face Wash",
+      "category": {
+        "primary": "Fitness",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Fitness"
+        ]
+      },
+      "brand": {
+        "name": "YaraHome",
+        "slug": "yarahome"
+      },
+      "store": {
+        "name": "Sunlit Bazaar",
+        "floor": "G",
+        "unit": "G-40"
+      },
+      "tags": [
+        "budget",
+        "giftable",
+        "bundleable"
+      ],
+      "specs": {
+        "weightGrams": 72,
+        "warrantyMonths": 0,
+        "origin": "Korea",
+        "rating": 3.6,
+        "ratingCount": 2126
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 30
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 29
+            },
+            {
+              "zone": "B",
+              "fee": 49
+            }
+          ],
+          "etaHours": 12
+        }
+      },
+      "compliance": {
+        "returnPolicy": "7-day replacement",
+        "gst": {
+          "hsn": "8612",
+          "ratePercent": 18
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_011_1/400/300",
+          "https://picsum.photos/seed/itm_011_2/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_011_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_011-V01",
+          "attributes": {
+            "colour": "Black",
+            "size": "S",
+            "material": "Ceramic"
+          },
+          "pricing": {
+            "mrp": 3094.24,
+            "discountPercent": 5,
+            "salePrice": 2939.53,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 4
+          },
+          "ttlSeconds": 180,
+          "availability": {
+            "initialUnits": 43,
+            "lowStockThreshold": 5,
+            "allowBackorder": true
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "save",
+            "today",
+            "combo",
+            "deal"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_012",
+      "name": "Jade Face Wash",
+      "category": {
+        "primary": "Skincare",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Skincare"
+        ]
+      },
+      "brand": {
+        "name": "PulseForge",
+        "slug": "pulseforge"
+      },
+      "store": {
+        "name": "Ivory Lane",
+        "floor": "L3",
+        "unit": "L3-35"
+      },
+      "tags": [
+        "new",
+        "budget",
+        "flash",
+        "giftable"
+      ],
+      "specs": {
+        "weightGrams": 1770,
+        "warrantyMonths": 12,
+        "origin": "Indonesia",
+        "rating": 4.8,
+        "ratingCount": 85
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 45
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 79
+            },
+            {
+              "zone": "B",
+              "fee": 49
+            }
+          ],
+          "etaHours": 6
+        }
+      },
+      "compliance": {
+        "returnPolicy": "10-day return",
+        "gst": {
+          "hsn": "7389",
+          "ratePercent": 28
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_012_1/400/300",
+          "https://picsum.photos/seed/itm_012_2/400/300",
+          "https://picsum.photos/seed/itm_012_3/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_012_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_012-V01",
+          "attributes": {
+            "colour": "Navy",
+            "size": "M",
+            "material": "Ceramic"
+          },
+          "pricing": {
+            "mrp": 478.67,
+            "discountPercent": 15,
+            "salePrice": 406.87,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 2
+          },
+          "ttlSeconds": 60,
+          "availability": {
+            "initialUnits": 24,
+            "lowStockThreshold": 8,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_012-V02",
+          "attributes": {
+            "colour": "Mint",
+            "size": "S",
+            "material": "Silicone"
+          },
+          "pricing": {
+            "mrp": 1975.87,
+            "discountPercent": 10,
+            "salePrice": 1778.28,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 2
+          },
+          "ttlSeconds": 25,
+          "availability": {
+            "initialUnits": 29,
+            "lowStockThreshold": 10,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "hot",
+            "mall",
+            "combo",
+            "deal"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_013",
+      "name": "Breeze Brush",
+      "category": {
+        "primary": "Home Decor",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Home Decor"
+        ]
+      },
+      "brand": {
+        "name": "Oak&Lily",
+        "slug": "oakandlily"
+      },
+      "store": {
+        "name": "Pebble Plaza",
+        "floor": "L1",
+        "unit": "L1-17"
+      },
+      "tags": [
+        "giftable",
+        "wireless",
+        "limited"
+      ],
+      "specs": {
+        "weightGrams": 214,
+        "warrantyMonths": 0,
+        "origin": "Vietnam",
+        "rating": 3.5,
+        "ratingCount": 88
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 45
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 29
+            },
+            {
+              "zone": "B",
+              "fee": 49
+            }
+          ],
+          "etaHours": 12
+        }
+      },
+      "compliance": {
+        "returnPolicy": "No returns on hygiene items",
+        "gst": {
+          "hsn": "4571",
+          "ratePercent": 28
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_013_1/400/300",
+          "https://picsum.photos/seed/itm_013_2/400/300",
+          "https://picsum.photos/seed/itm_013_3/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_013_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_013-V01",
+          "attributes": {
+            "colour": "Olive",
+            "size": "One Size",
+            "material": "Cotton"
+          },
+          "pricing": {
+            "mrp": 4217.48,
+            "discountPercent": 10,
+            "salePrice": 3795.73,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 5
+          },
+          "ttlSeconds": 15,
+          "availability": {
+            "initialUnits": 28,
+            "lowStockThreshold": 3,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_013-V02",
+          "attributes": {
+            "colour": "Olive",
+            "size": "S",
+            "material": "Ceramic"
+          },
+          "pricing": {
+            "mrp": 989.47,
+            "discountPercent": 15,
+            "salePrice": 841.05,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 4
+          },
+          "ttlSeconds": 90,
+          "availability": {
+            "initialUnits": 16,
+            "lowStockThreshold": 10,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_013-V03",
+          "attributes": {
+            "colour": "Rose",
+            "size": "L",
+            "material": "Leatherette"
+          },
+          "pricing": {
+            "mrp": 3783.85,
+            "discountPercent": 25,
+            "salePrice": 2837.89,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 3
+          },
+          "ttlSeconds": 25,
+          "availability": {
+            "initialUnits": 33,
+            "lowStockThreshold": 3,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "limited",
+            "new",
+            "deal",
+            "today"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_014",
+      "name": "Aurora Treats",
+      "category": {
+        "primary": "Stationery",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Stationery"
+        ]
+      },
+      "brand": {
+        "name": "KoruLabs",
+        "slug": "korulabs"
+      },
+      "store": {
+        "name": "Sky Atrium",
+        "floor": "L1",
+        "unit": "L1-14"
+      },
+      "tags": [
+        "budget",
+        "compact",
+        "eco"
+      ],
+      "specs": {
+        "weightGrams": 1370,
+        "warrantyMonths": 3,
+        "origin": "India",
+        "rating": 3.7,
+        "ratingCount": 1851
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 15
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 79
+            },
+            {
+              "zone": "B",
+              "fee": 79
+            }
+          ],
+          "etaHours": 2
+        }
+      },
+      "compliance": {
+        "returnPolicy": "30-day return",
+        "gst": {
+          "hsn": "6325",
+          "ratePercent": 12
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_014_1/400/300",
+          "https://picsum.photos/seed/itm_014_2/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_014_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_014-V01",
+          "attributes": {
+            "colour": "Olive",
+            "size": "L",
+            "material": "Silicone"
+          },
+          "pricing": {
+            "mrp": 471.38,
+            "discountPercent": 12,
+            "salePrice": 414.81,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 1
+          },
+          "ttlSeconds": 75,
+          "availability": {
+            "initialUnits": 46,
+            "lowStockThreshold": 3,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_014-V02",
+          "attributes": {
+            "colour": "Rose",
+            "size": "XL",
+            "material": "Aluminium"
+          },
+          "pricing": {
+            "mrp": 3340.45,
+            "discountPercent": 5,
+            "salePrice": 3173.43,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 5
+          },
+          "ttlSeconds": 90,
+          "availability": {
+            "initialUnits": 3,
+            "lowStockThreshold": 10,
+            "allowBackorder": true
+          }
+        },
+        {
+          "sku": "itm_014-V03",
+          "attributes": {
+            "colour": "White",
+            "size": "L",
+            "material": "Glass"
+          },
+          "pricing": {
+            "mrp": 3213.37,
+            "discountPercent": 30,
+            "salePrice": 2249.36,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 2
+          },
+          "ttlSeconds": 180,
+          "availability": {
+            "initialUnits": 14,
+            "lowStockThreshold": 8,
+            "allowBackorder": true
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "limited",
+            "offer",
+            "hot",
+            "new"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_015",
+      "name": "Jade Sling Bag",
+      "category": {
+        "primary": "Pet Care",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Pet Care"
+        ]
+      },
+      "brand": {
+        "name": "ZenMoss",
+        "slug": "zenmoss"
+      },
+      "store": {
+        "name": "Sky Atrium",
+        "floor": "L3",
+        "unit": "L3-20"
+      },
+      "tags": [
+        "giftable",
+        "budget",
+        "handmade"
+      ],
+      "specs": {
+        "weightGrams": 1304,
+        "warrantyMonths": 24,
+        "origin": "Indonesia",
+        "rating": 3.8,
+        "ratingCount": 2272
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 45
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 79
+            },
+            {
+              "zone": "B",
+              "fee": 99
+            }
+          ],
+          "etaHours": 24
+        }
+      },
+      "compliance": {
+        "returnPolicy": "10-day return",
+        "gst": {
+          "hsn": "6764",
+          "ratePercent": 28
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_015_1/400/300",
+          "https://picsum.photos/seed/itm_015_2/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_015_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_015-V01",
+          "attributes": {
+            "colour": "White",
+            "size": "S",
+            "material": "Aluminium"
+          },
+          "pricing": {
+            "mrp": 2493.03,
+            "discountPercent": 12,
+            "salePrice": 2193.87,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 4
+          },
+          "ttlSeconds": 240,
+          "availability": {
+            "initialUnits": 31,
+            "lowStockThreshold": 3,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "offer",
+            "mall",
+            "deal",
+            "limited"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_016",
+      "name": "Aurora Sling Bag",
+      "category": {
+        "primary": "Fitness",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Fitness"
+        ]
+      },
+      "brand": {
+        "name": "LumenLeaf",
+        "slug": "lumenleaf"
+      },
+      "store": {
+        "name": "Cobalt Corner",
+        "floor": "G",
+        "unit": "G-22"
+      },
+      "tags": [
+        "flash",
+        "bestseller",
+        "bundleable"
+      ],
+      "specs": {
+        "weightGrams": 1173,
+        "warrantyMonths": 0,
+        "origin": "India",
+        "rating": 4.1,
+        "ratingCount": 522
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 60
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 0
+            },
+            {
+              "zone": "B",
+              "fee": 49
+            }
+          ],
+          "etaHours": 24
+        }
+      },
+      "compliance": {
+        "returnPolicy": "10-day return",
+        "gst": {
+          "hsn": "8690",
+          "ratePercent": 28
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_016_1/400/300",
+          "https://picsum.photos/seed/itm_016_2/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_016_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_016-V01",
+          "attributes": {
+            "colour": "Grey",
+            "size": "M",
+            "material": "Microfibre"
+          },
+          "pricing": {
+            "mrp": 3023.27,
+            "discountPercent": 5,
+            "salePrice": 2872.11,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 2
+          },
+          "ttlSeconds": 75,
+          "availability": {
+            "initialUnits": 17,
+            "lowStockThreshold": 8,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "new",
+            "sale",
+            "offer",
+            "today"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_017",
+      "name": "Velvet Yoga Mat",
+      "category": {
+        "primary": "Skincare",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Skincare"
+        ]
+      },
+      "brand": {
+        "name": "DuneWorks",
+        "slug": "duneworks"
+      },
+      "store": {
+        "name": "Lotus Walk",
+        "floor": "B1",
+        "unit": "B1-35"
+      },
+      "tags": [
+        "budget",
+        "new"
+      ],
+      "specs": {
+        "weightGrams": 2482,
+        "warrantyMonths": 12,
+        "origin": "China",
+        "rating": 3.3,
+        "ratingCount": 1185
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 60
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 79
+            },
+            {
+              "zone": "B",
+              "fee": 49
+            }
+          ],
+          "etaHours": 4
+        }
+      },
+      "compliance": {
+        "returnPolicy": "10-day return",
+        "gst": {
+          "hsn": "4241",
+          "ratePercent": 28
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_017_1/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_017_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_017-V01",
+          "attributes": {
+            "colour": "Black",
+            "size": "S",
+            "material": "Cotton"
+          },
+          "pricing": {
+            "mrp": 4073.6,
+            "discountPercent": 15,
+            "salePrice": 3462.56,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 1
+          },
+          "ttlSeconds": 50,
+          "availability": {
+            "initialUnits": 10,
+            "lowStockThreshold": 10,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_017-V02",
+          "attributes": {
+            "colour": "Amber",
+            "size": "L",
+            "material": "Ceramic"
+          },
+          "pricing": {
+            "mrp": 4550.67,
+            "discountPercent": 15,
+            "salePrice": 3868.07,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 5
+          },
+          "ttlSeconds": 180,
+          "availability": {
+            "initialUnits": 22,
+            "lowStockThreshold": 3,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_017-V03",
+          "attributes": {
+            "colour": "Navy",
+            "size": "One Size",
+            "material": "Silicone"
+          },
+          "pricing": {
+            "mrp": 1395.77,
+            "discountPercent": 5,
+            "salePrice": 1325.98,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 2
+          },
+          "ttlSeconds": 50,
+          "availability": {
+            "initialUnits": 14,
+            "lowStockThreshold": 3,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "mall",
+            "new",
+            "offer",
+            "today"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_018",
+      "name": "Citrus Earbuds",
+      "category": {
+        "primary": "Stationery",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Stationery"
+        ]
+      },
+      "brand": {
+        "name": "CedarVale",
+        "slug": "cedarvale"
+      },
+      "store": {
+        "name": "Ivory Lane",
+        "floor": "L3",
+        "unit": "L3-17"
+      },
+      "tags": [
+        "new",
+        "limited",
+        "handmade",
+        "premium"
+      ],
+      "specs": {
+        "weightGrams": 1722,
+        "warrantyMonths": 6,
+        "origin": "China",
+        "rating": 4.3,
+        "ratingCount": 663
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 20
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 79
+            },
+            {
+              "zone": "B",
+              "fee": 79
+            }
+          ],
+          "etaHours": 12
+        }
+      },
+      "compliance": {
+        "returnPolicy": "No returns on hygiene items",
+        "gst": {
+          "hsn": "8451",
+          "ratePercent": 5
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_018_1/400/300",
+          "https://picsum.photos/seed/itm_018_2/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_018_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_018-V01",
+          "attributes": {
+            "colour": "Sand",
+            "size": "L",
+            "material": "Bamboo"
+          },
+          "pricing": {
+            "mrp": 2395.62,
+            "discountPercent": 15,
+            "salePrice": 2036.28,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 4
+          },
+          "ttlSeconds": 60,
+          "availability": {
+            "initialUnits": 35,
+            "lowStockThreshold": 10,
+            "allowBackorder": true
+          }
+        },
+        {
+          "sku": "itm_018-V02",
+          "attributes": {
+            "colour": "White",
+            "size": "XL",
+            "material": "Steel"
+          },
+          "pricing": {
+            "mrp": 4457.17,
+            "discountPercent": 20,
+            "salePrice": 3565.74,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 5
+          },
+          "ttlSeconds": 60,
+          "availability": {
+            "initialUnits": 4,
+            "lowStockThreshold": 3,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_018-V03",
+          "attributes": {
+            "colour": "Black",
+            "size": "One Size",
+            "material": "Leatherette"
+          },
+          "pricing": {
+            "mrp": 2922.61,
+            "discountPercent": 10,
+            "salePrice": 2630.35,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 4
+          },
+          "ttlSeconds": 210,
+          "availability": {
+            "initialUnits": 20,
+            "lowStockThreshold": 5,
+            "allowBackorder": true
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "limited",
+            "deal",
+            "today",
+            "combo"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_019",
+      "name": "Ember Cable",
+      "category": {
+        "primary": "Travel Gear",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Travel Gear"
+        ]
+      },
+      "brand": {
+        "name": "Aurum",
+        "slug": "aurum"
+      },
+      "store": {
+        "name": "Pebble Plaza",
+        "floor": "B1",
+        "unit": "B1-08"
+      },
+      "tags": [
+        "handmade",
+        "new",
+        "limited"
+      ],
+      "specs": {
+        "weightGrams": 168,
+        "warrantyMonths": 24,
+        "origin": "Indonesia",
+        "rating": 4.6,
+        "ratingCount": 653
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 20
+        },
+        "delivery": {
+          "enabled": false,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 0
+            },
+            {
+              "zone": "B",
+              "fee": 99
+            }
+          ],
+          "etaHours": 12
+        }
+      },
+      "compliance": {
+        "returnPolicy": "No returns on hygiene items",
+        "gst": {
+          "hsn": "4681",
+          "ratePercent": 5
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_019_1/400/300",
+          "https://picsum.photos/seed/itm_019_2/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_019_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_019-V01",
+          "attributes": {
+            "colour": "Amber",
+            "size": "M",
+            "material": "Ceramic"
+          },
+          "pricing": {
+            "mrp": 3163.5,
+            "discountPercent": 0,
+            "salePrice": 3163.5,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 2
+          },
+          "ttlSeconds": 60,
+          "availability": {
+            "initialUnits": 38,
+            "lowStockThreshold": 5,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "new",
+            "combo",
+            "offer",
+            "save"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_020",
+      "name": "Breeze Spoon Set",
+      "category": {
+        "primary": "Home Decor",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Home Decor"
+        ]
+      },
+      "brand": {
+        "name": "Oak&Lily",
+        "slug": "oakandlily"
+      },
+      "store": {
+        "name": "Sunlit Bazaar",
+        "floor": "L2",
+        "unit": "L2-29"
+      },
+      "tags": [
+        "budget",
+        "flash"
+      ],
+      "specs": {
+        "weightGrams": 1353,
+        "warrantyMonths": 24,
+        "origin": "Korea",
+        "rating": 4.4,
+        "ratingCount": 1566
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 30
+        },
+        "delivery": {
+          "enabled": false,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 29
+            },
+            {
+              "zone": "B",
+              "fee": 79
+            }
+          ],
+          "etaHours": 2
+        }
+      },
+      "compliance": {
+        "returnPolicy": "7-day replacement",
+        "gst": {
+          "hsn": "9229",
+          "ratePercent": 18
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_020_1/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_020_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_020-V01",
+          "attributes": {
+            "colour": "Mint",
+            "size": "L",
+            "material": "Silicone"
+          },
+          "pricing": {
+            "mrp": 4616.15,
+            "discountPercent": 35,
+            "salePrice": 3000.5,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 2
+          },
+          "ttlSeconds": 25,
+          "availability": {
+            "initialUnits": 20,
+            "lowStockThreshold": 10,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_020-V02",
+          "attributes": {
+            "colour": "Amber",
+            "size": "M",
+            "material": "Steel"
+          },
+          "pricing": {
+            "mrp": 1484.91,
+            "discountPercent": 15,
+            "salePrice": 1262.17,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 5
+          },
+          "ttlSeconds": 240,
+          "availability": {
+            "initialUnits": 12,
+            "lowStockThreshold": 10,
+            "allowBackorder": true
+          }
+        },
+        {
+          "sku": "itm_020-V03",
+          "attributes": {
+            "colour": "Rose",
+            "size": "M",
+            "material": "Microfibre"
+          },
+          "pricing": {
+            "mrp": 3837.08,
+            "discountPercent": 25,
+            "salePrice": 2877.81,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 4
+          },
+          "ttlSeconds": 90,
+          "availability": {
+            "initialUnits": 15,
+            "lowStockThreshold": 5,
+            "allowBackorder": true
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "deal",
+            "save",
+            "combo",
+            "sale"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_021",
+      "name": "Copper Notebook",
+      "category": {
+        "primary": "Stationery",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Stationery"
+        ]
+      },
+      "brand": {
+        "name": "Oak&Lily",
+        "slug": "oakandlily"
+      },
+      "store": {
+        "name": "Lotus Walk",
+        "floor": "L1",
+        "unit": "L1-06"
+      },
+      "tags": [
+        "handmade",
+        "eco"
+      ],
+      "specs": {
+        "weightGrams": 168,
+        "warrantyMonths": 0,
+        "origin": "China",
+        "rating": 4.6,
+        "ratingCount": 1206
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 20
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 79
+            },
+            {
+              "zone": "B",
+              "fee": 49
+            }
+          ],
+          "etaHours": 4
+        }
+      },
+      "compliance": {
+        "returnPolicy": "30-day return",
+        "gst": {
+          "hsn": "3950",
+          "ratePercent": 12
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_021_1/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_021_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_021-V01",
+          "attributes": {
+            "colour": "Olive",
+            "size": "One Size",
+            "material": "Bamboo"
+          },
+          "pricing": {
+            "mrp": 4272.65,
+            "discountPercent": 35,
+            "salePrice": 2777.22,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 4
+          },
+          "ttlSeconds": 90,
+          "availability": {
+            "initialUnits": 43,
+            "lowStockThreshold": 10,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_021-V02",
+          "attributes": {
+            "colour": "White",
+            "size": "S",
+            "material": "Leatherette"
+          },
+          "pricing": {
+            "mrp": 4986.39,
+            "discountPercent": 5,
+            "salePrice": 4737.07,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 4
+          },
+          "ttlSeconds": 30,
+          "availability": {
+            "initialUnits": 43,
+            "lowStockThreshold": 3,
+            "allowBackorder": true
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "hot",
+            "today",
+            "mall",
+            "combo"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_022",
+      "name": "Prism Cable",
+      "category": {
+        "primary": "Pet Care",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Pet Care"
+        ]
+      },
+      "brand": {
+        "name": "EverFern",
+        "slug": "everfern"
+      },
+      "store": {
+        "name": "Ivory Lane",
+        "floor": "L2",
+        "unit": "L2-17"
+      },
+      "tags": [
+        "eco",
+        "handmade",
+        "flash",
+        "budget"
+      ],
+      "specs": {
+        "weightGrams": 1174,
+        "warrantyMonths": 0,
+        "origin": "Indonesia",
+        "rating": 4.7,
+        "ratingCount": 205
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 45
+        },
+        "delivery": {
+          "enabled": false,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 79
+            },
+            {
+              "zone": "B",
+              "fee": 79
+            }
+          ],
+          "etaHours": 4
+        }
+      },
+      "compliance": {
+        "returnPolicy": "10-day return",
+        "gst": {
+          "hsn": "4588",
+          "ratePercent": 12
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_022_1/400/300",
+          "https://picsum.photos/seed/itm_022_2/400/300",
+          "https://picsum.photos/seed/itm_022_3/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_022_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_022-V01",
+          "attributes": {
+            "colour": "Black",
+            "size": "L",
+            "material": "Leatherette"
+          },
+          "pricing": {
+            "mrp": 3419.29,
+            "discountPercent": 10,
+            "salePrice": 3077.36,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 1
+          },
+          "ttlSeconds": 210,
+          "availability": {
+            "initialUnits": 25,
+            "lowStockThreshold": 8,
+            "allowBackorder": true
+          }
+        },
+        {
+          "sku": "itm_022-V02",
+          "attributes": {
+            "colour": "Sand",
+            "size": "L",
+            "material": "Leatherette"
+          },
+          "pricing": {
+            "mrp": 1075.16,
+            "discountPercent": 25,
+            "salePrice": 806.37,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 4
+          },
+          "ttlSeconds": 30,
+          "availability": {
+            "initialUnits": 18,
+            "lowStockThreshold": 10,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "new",
+            "deal",
+            "sale",
+            "hot"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_023",
+      "name": "Frost Planner",
+      "category": {
+        "primary": "Skincare",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Skincare"
+        ]
+      },
+      "brand": {
+        "name": "BlueKite",
+        "slug": "bluekite"
+      },
+      "store": {
+        "name": "Cobalt Corner",
+        "floor": "B1",
+        "unit": "B1-15"
+      },
+      "tags": [
+        "handmade",
+        "wireless",
+        "budget",
+        "bestseller"
+      ],
+      "specs": {
+        "weightGrams": 1548,
+        "warrantyMonths": 0,
+        "origin": "Korea",
+        "rating": 3.2,
+        "ratingCount": 2202
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 10
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 49
+            },
+            {
+              "zone": "B",
+              "fee": 99
+            }
+          ],
+          "etaHours": 6
+        }
+      },
+      "compliance": {
+        "returnPolicy": "30-day return",
+        "gst": {
+          "hsn": "7086",
+          "ratePercent": 5
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_023_1/400/300",
+          "https://picsum.photos/seed/itm_023_2/400/300",
+          "https://picsum.photos/seed/itm_023_3/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_023_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_023-V01",
+          "attributes": {
+            "colour": "Rose",
+            "size": "One Size",
+            "material": "Aluminium"
+          },
+          "pricing": {
+            "mrp": 959.64,
+            "discountPercent": 10,
+            "salePrice": 863.68,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 5
+          },
+          "ttlSeconds": 120,
+          "availability": {
+            "initialUnits": 36,
+            "lowStockThreshold": 8,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_023-V02",
+          "attributes": {
+            "colour": "Sand",
+            "size": "L",
+            "material": "Leatherette"
+          },
+          "pricing": {
+            "mrp": 3757.14,
+            "discountPercent": 20,
+            "salePrice": 3005.71,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 1
+          },
+          "ttlSeconds": 210,
+          "availability": {
+            "initialUnits": 7,
+            "lowStockThreshold": 5,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "combo",
+            "sale",
+            "limited",
+            "offer"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_024",
+      "name": "Velvet Cable",
+      "category": {
+        "primary": "Fitness",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Fitness"
+        ]
+      },
+      "brand": {
+        "name": "XenoPeak",
+        "slug": "xenopeak"
+      },
+      "store": {
+        "name": "Ivory Lane",
+        "floor": "L2",
+        "unit": "L2-29"
+      },
+      "tags": [
+        "premium",
+        "wireless",
+        "bestseller"
+      ],
+      "specs": {
+        "weightGrams": 1766,
+        "warrantyMonths": 18,
+        "origin": "Thailand",
+        "rating": 4.4,
+        "ratingCount": 1704
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 60
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 79
+            },
+            {
+              "zone": "B",
+              "fee": 99
+            }
+          ],
+          "etaHours": 12
+        }
+      },
+      "compliance": {
+        "returnPolicy": "10-day return",
+        "gst": {
+          "hsn": "1536",
+          "ratePercent": 18
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_024_1/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_024_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_024-V01",
+          "attributes": {
+            "colour": "Mint",
+            "size": "XS",
+            "material": "Steel"
+          },
+          "pricing": {
+            "mrp": 1590.39,
+            "discountPercent": 30,
+            "salePrice": 1113.27,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 1
+          },
+          "ttlSeconds": 30,
+          "availability": {
+            "initialUnits": 18,
+            "lowStockThreshold": 5,
+            "allowBackorder": true
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "combo",
+            "mall",
+            "limited",
+            "sale"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_025",
+      "name": "Canyon Mug",
+      "category": {
+        "primary": "Electronics",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Electronics"
+        ]
+      },
+      "brand": {
+        "name": "UmberCraft",
+        "slug": "umbercraft"
+      },
+      "store": {
+        "name": "Pebble Plaza",
+        "floor": "L1",
+        "unit": "L1-02"
+      },
+      "tags": [
+        "bestseller",
+        "giftable"
+      ],
+      "specs": {
+        "weightGrams": 2451,
+        "warrantyMonths": 3,
+        "origin": "Vietnam",
+        "rating": 3.8,
+        "ratingCount": 609
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 45
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 49
+            },
+            {
+              "zone": "B",
+              "fee": 49
+            }
+          ],
+          "etaHours": 4
+        }
+      },
+      "compliance": {
+        "returnPolicy": "10-day return",
+        "gst": {
+          "hsn": "3858",
+          "ratePercent": 5
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_025_1/400/300",
+          "https://picsum.photos/seed/itm_025_2/400/300",
+          "https://picsum.photos/seed/itm_025_3/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_025_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_025-V01",
+          "attributes": {
+            "colour": "White",
+            "size": "L",
+            "material": "Bamboo"
+          },
+          "pricing": {
+            "mrp": 3346.57,
+            "discountPercent": 0,
+            "salePrice": 3346.57,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 1
+          },
+          "ttlSeconds": 90,
+          "availability": {
+            "initialUnits": 18,
+            "lowStockThreshold": 5,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "new",
+            "sale",
+            "limited",
+            "today"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_026",
+      "name": "Silk Brush",
+      "category": {
+        "primary": "Fitness",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Fitness"
+        ]
+      },
+      "brand": {
+        "name": "VividBay",
+        "slug": "vividbay"
+      },
+      "store": {
+        "name": "Cobalt Corner",
+        "floor": "L1",
+        "unit": "L1-21"
+      },
+      "tags": [
+        "giftable",
+        "compact",
+        "flash",
+        "bestseller"
+      ],
+      "specs": {
+        "weightGrams": 1285,
+        "warrantyMonths": 12,
+        "origin": "Thailand",
+        "rating": 4.8,
+        "ratingCount": 254
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 30
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 79
+            },
+            {
+              "zone": "B",
+              "fee": 99
+            }
+          ],
+          "etaHours": 2
+        }
+      },
+      "compliance": {
+        "returnPolicy": "30-day return",
+        "gst": {
+          "hsn": "8267",
+          "ratePercent": 5
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_026_1/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_026_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_026-V01",
+          "attributes": {
+            "colour": "Mint",
+            "size": "One Size",
+            "material": "Aluminium"
+          },
+          "pricing": {
+            "mrp": 2676.82,
+            "discountPercent": 5,
+            "salePrice": 2542.98,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 4
+          },
+          "ttlSeconds": 210,
+          "availability": {
+            "initialUnits": 26,
+            "lowStockThreshold": 3,
+            "allowBackorder": true
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "hot",
+            "new",
+            "deal",
+            "combo"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_027",
+      "name": "Frost Sling Bag",
+      "category": {
+        "primary": "Home Decor",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Home Decor"
+        ]
+      },
+      "brand": {
+        "name": "WinkAura",
+        "slug": "winkaura"
+      },
+      "store": {
+        "name": "Neon Gallery",
+        "floor": "L2",
+        "unit": "L2-20"
+      },
+      "tags": [
+        "limited",
+        "premium",
+        "bundleable"
+      ],
+      "specs": {
+        "weightGrams": 2328,
+        "warrantyMonths": 0,
+        "origin": "Indonesia",
+        "rating": 4.8,
+        "ratingCount": 2305
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 20
+        },
+        "delivery": {
+          "enabled": false,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 0
+            },
+            {
+              "zone": "B",
+              "fee": 79
+            }
+          ],
+          "etaHours": 6
+        }
+      },
+      "compliance": {
+        "returnPolicy": "30-day return",
+        "gst": {
+          "hsn": "1842",
+          "ratePercent": 18
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_027_1/400/300",
+          "https://picsum.photos/seed/itm_027_2/400/300",
+          "https://picsum.photos/seed/itm_027_3/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_027_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_027-V01",
+          "attributes": {
+            "colour": "Amber",
+            "size": "M",
+            "material": "Ceramic"
+          },
+          "pricing": {
+            "mrp": 2576.2,
+            "discountPercent": 25,
+            "salePrice": 1932.15,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 1
+          },
+          "ttlSeconds": 30,
+          "availability": {
+            "initialUnits": 44,
+            "lowStockThreshold": 5,
+            "allowBackorder": true
+          }
+        },
+        {
+          "sku": "itm_027-V02",
+          "attributes": {
+            "colour": "Grey",
+            "size": "S",
+            "material": "Aluminium"
+          },
+          "pricing": {
+            "mrp": 1759.76,
+            "discountPercent": 30,
+            "salePrice": 1231.83,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 4
+          },
+          "ttlSeconds": 180,
+          "availability": {
+            "initialUnits": 49,
+            "lowStockThreshold": 3,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_027-V03",
+          "attributes": {
+            "colour": "Olive",
+            "size": "M",
+            "material": "Leatherette"
+          },
+          "pricing": {
+            "mrp": 1933.08,
+            "discountPercent": 10,
+            "salePrice": 1739.77,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 4
+          },
+          "ttlSeconds": 25,
+          "availability": {
+            "initialUnits": 8,
+            "lowStockThreshold": 3,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "limited",
+            "deal",
+            "mall",
+            "save"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_028",
+      "name": "Aurora Planner",
+      "category": {
+        "primary": "Skincare",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Skincare"
+        ]
+      },
+      "brand": {
+        "name": "IonPeak",
+        "slug": "ionpeak"
+      },
+      "store": {
+        "name": "Neon Gallery",
+        "floor": "B1",
+        "unit": "B1-40"
+      },
+      "tags": [
+        "handmade",
+        "bestseller"
+      ],
+      "specs": {
+        "weightGrams": 931,
+        "warrantyMonths": 12,
+        "origin": "Korea",
+        "rating": 4.0,
+        "ratingCount": 649
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 20
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 49
+            },
+            {
+              "zone": "B",
+              "fee": 99
+            }
+          ],
+          "etaHours": 24
+        }
+      },
+      "compliance": {
+        "returnPolicy": "No returns on hygiene items",
+        "gst": {
+          "hsn": "1861",
+          "ratePercent": 12
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_028_1/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_028_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_028-V01",
+          "attributes": {
+            "colour": "Navy",
+            "size": "L",
+            "material": "Microfibre"
+          },
+          "pricing": {
+            "mrp": 4874.28,
+            "discountPercent": 35,
+            "salePrice": 3168.28,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 1
+          },
+          "ttlSeconds": 60,
+          "availability": {
+            "initialUnits": 4,
+            "lowStockThreshold": 5,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_028-V02",
+          "attributes": {
+            "colour": "Sand",
+            "size": "M",
+            "material": "Glass"
+          },
+          "pricing": {
+            "mrp": 128.92,
+            "discountPercent": 10,
+            "salePrice": 116.03,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 5
+          },
+          "ttlSeconds": 150,
+          "availability": {
+            "initialUnits": 7,
+            "lowStockThreshold": 5,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "sale",
+            "deal",
+            "offer",
+            "mall"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_029",
+      "name": "Cobalt Cable",
+      "category": {
+        "primary": "Snacks",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Snacks"
+        ]
+      },
+      "brand": {
+        "name": "QuartzNine",
+        "slug": "quartznine"
+      },
+      "store": {
+        "name": "Pebble Plaza",
+        "floor": "L1",
+        "unit": "L1-09"
+      },
+      "tags": [
+        "budget",
+        "compact"
+      ],
+      "specs": {
+        "weightGrams": 274,
+        "warrantyMonths": 0,
+        "origin": "Vietnam",
+        "rating": 3.7,
+        "ratingCount": 870
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 15
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 49
+            },
+            {
+              "zone": "B",
+              "fee": 79
+            }
+          ],
+          "etaHours": 2
+        }
+      },
+      "compliance": {
+        "returnPolicy": "No returns on hygiene items",
+        "gst": {
+          "hsn": "9149",
+          "ratePercent": 28
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_029_1/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_029_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_029-V01",
+          "attributes": {
+            "colour": "Amber",
+            "size": "XS",
+            "material": "Glass"
+          },
+          "pricing": {
+            "mrp": 2205.58,
+            "discountPercent": 15,
+            "salePrice": 1874.74,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 5
+          },
+          "ttlSeconds": 240,
+          "availability": {
+            "initialUnits": 36,
+            "lowStockThreshold": 8,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "today",
+            "save",
+            "mall",
+            "offer"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itm_030",
+      "name": "Canyon Notebook",
+      "category": {
+        "primary": "Travel Gear",
+        "breadcrumbs": [
+          "Mall Deals",
+          "Travel Gear"
+        ]
+      },
+      "brand": {
+        "name": "YaraHome",
+        "slug": "yarahome"
+      },
+      "store": {
+        "name": "Pebble Plaza",
+        "floor": "B1",
+        "unit": "B1-33"
+      },
+      "tags": [
+        "limited",
+        "giftable",
+        "budget"
+      ],
+      "specs": {
+        "weightGrams": 2462,
+        "warrantyMonths": 12,
+        "origin": "Indonesia",
+        "rating": 3.3,
+        "ratingCount": 1275
+      },
+      "fulfilment": {
+        "pickup": {
+          "enabled": true,
+          "etaMinutes": 60
+        },
+        "delivery": {
+          "enabled": true,
+          "zones": [
+            {
+              "zone": "A",
+              "fee": 29
+            },
+            {
+              "zone": "B",
+              "fee": 79
+            }
+          ],
+          "etaHours": 4
+        }
+      },
+      "compliance": {
+        "returnPolicy": "No returns on hygiene items",
+        "gst": {
+          "hsn": "9363",
+          "ratePercent": 5
+        }
+      },
+      "media": {
+        "images": [
+          "https://picsum.photos/seed/itm_030_1/400/300",
+          "https://picsum.photos/seed/itm_030_2/400/300",
+          "https://picsum.photos/seed/itm_030_3/400/300"
+        ],
+        "thumbnail": "https://picsum.photos/seed/itm_030_thumb/400/300"
+      },
+      "variants": [
+        {
+          "sku": "itm_030-V01",
+          "attributes": {
+            "colour": "Black",
+            "size": "L",
+            "material": "Bamboo"
+          },
+          "pricing": {
+            "mrp": 4323.34,
+            "discountPercent": 25,
+            "salePrice": 3242.51,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 5
+          },
+          "ttlSeconds": 150,
+          "availability": {
+            "initialUnits": 48,
+            "lowStockThreshold": 10,
+            "allowBackorder": false
+          }
+        },
+        {
+          "sku": "itm_030-V02",
+          "attributes": {
+            "colour": "White",
+            "size": "L",
+            "material": "Steel"
+          },
+          "pricing": {
+            "mrp": 4833.38,
+            "discountPercent": 10,
+            "salePrice": 4350.04,
+            "currency": "INR"
+          },
+          "limits": {
+            "maxQtyPerOrder": 5
+          },
+          "ttlSeconds": 210,
+          "availability": {
+            "initialUnits": 47,
+            "lowStockThreshold": 8,
+            "allowBackorder": false
+          }
+        }
+      ],
+      "meta": {
+        "createdAt": "2026-01-01T10:00:00+05:30",
+        "updatedAt": "2026-01-07T09:30:00+05:30",
+        "search": {
+          "keywords": [
+            "mall",
+            "limited",
+            "save",
+            "combo"
+          ]
+        }
+      }
+    }
+  ]
+}
